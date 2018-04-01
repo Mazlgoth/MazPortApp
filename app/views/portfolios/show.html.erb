@@ -9,17 +9,17 @@
 
       <hr>
 
-	  <em><%= @portfolio_item.subtitle %></em>
+	    <em><%= @portfolio_item.subtitle %></em>
 
-	  <p><%= @portfolio_item.body %></p>
+	    <p><%= @portfolio_item.body %></p>
       
       <hr>
 
-	  <h3>Technologies Used:</h3>
+	    <h3>Technologies Used:</h3>
 
-	  <% @portfolio_item.technologies.each do |t| %>
-	  <p><%= t.name %></p>
-	  <% end %>
+	    <% @portfolio_item.technologies.each do |t| %>
+	    <p><%= t.name %></p>
+	    <% end %>
     </div>
   </div>
 </div>
