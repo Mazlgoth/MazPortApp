@@ -1,7 +1,7 @@
 <% unless current_user.is_a? GuestUser %>
 	<%= form_for @comment, url: blog_path do |f| %>
 		<div class="form-group">
-			<%= f.label :content %>
+			<%= f.label :Comment %>
 			<%= f.text_area :content, class: 'form-control' %>
 		</div>
 
