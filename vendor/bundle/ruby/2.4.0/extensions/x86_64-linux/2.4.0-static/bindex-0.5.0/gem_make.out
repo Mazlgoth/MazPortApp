@@ -1,0 +1,15 @@
+current directory: /home/ghost/Coding/MazPortApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/home/ghost/.rbenv/versions/2.4.3/bin/ruby -r ./siteconf20180807-5148-ja8w9m.rb extconf.rb
+creating Makefile
+
+current directory: /home/ghost/Coding/MazPortApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/ghost/Coding/MazPortApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/ghost/Coding/MazPortApp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20180807-5148-c3id1s/bindex
