@@ -319,4 +319,8 @@ RUBY VERSION
    ruby 2.4.3p205
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.16.3
+=======
+   1.17.3
+>>>>>>> image-managment

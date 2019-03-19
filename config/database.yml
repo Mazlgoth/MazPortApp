@@ -9,15 +9,20 @@ default: &default
   encoding: unicode
   pool: 5
   timeout: 5000
-  host: <%= ENV['DATA_DB_HOST'] %>
-  username: <%= ENV['DATA_DB_USER'] %>
-  password: <%= ENV['DATA_DB_PASS'] %>
+  host: localhost
+
 development:
   <<: *default
   database: development
+  username: postgres
+  password: <%= ENV['PW_POSTGRES'] %>
+
 test:
   <<: *default
   database: test
+  username: postgres
+  password: <%= ENV['PW_POSTGRES'] %>
+
 production:
   <<: *default
   database: production
