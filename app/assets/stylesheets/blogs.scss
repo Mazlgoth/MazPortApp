@@ -14,9 +14,10 @@
 
 body {
   background-color: #808080;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Ultra', serif;
   color: #DBAD23;
   font-size: 1.2em;
+  font-weight: 600;
 }
 
 h1,
@@ -59,7 +60,7 @@ h6,
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #00ADBD;
+  color: #808080;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -86,11 +87,11 @@ h6,
 }
 
 .topics-link {
-  color: #DBAD23;
+  color: #808080;
 }
 
 .topics-link:hover {
-  color: #00ADBD;
+  color: #DBAD23;
   text-decoration: none;
 }
 
@@ -110,11 +111,11 @@ h6,
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: 400;
-  color: #DBAD23;
+  color: #808080;
 }
 .blog-description {
   font-size: 1.1rem;
-  color: #DBAD23;
+  color: #808080;
 }
 
 @media (min-width: 40em) {
@@ -136,7 +137,7 @@ h6,
   padding: 1rem;
   background-color: #2626B5;
   border-radius: .25rem;
-  color: #DBAD23;
+  color: #808080;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
@@ -171,7 +172,7 @@ h6,
   font-weight: 600;
 }
 .blog-post-title a {
-  color: #00ADBD;
+  color: #2626B5;
 }
 .blog-post-title a:hover {
   color: #DBAD23;
