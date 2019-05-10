@@ -187,11 +187,16 @@ h6,
 .blog-footer {
   margin-top: 20px;
   padding: 2.5rem 0;
-  color: #999;
+  color: #DBAD23;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  background-color: #808080;
+  border-top: .05rem solid #000;
 }
+
+.blog-footer a {
+  color: 2626B5;
+}
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
